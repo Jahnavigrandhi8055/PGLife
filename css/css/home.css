@@ -1,0 +1,28 @@
+/* home.css */
+body {
+    background-image: url('https://e0.pxfuel.com/wallpapers/456/657/desktop-wallpaper-a-black-background-website-2021-live-background-black-background-best-industrial-black.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: white; /* Change text color for better contrast */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker on hover */
+}

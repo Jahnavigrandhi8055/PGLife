@@ -1,0 +1,38 @@
+/* dashboard.css */
+.dashboard-header {
+    margin-bottom: 20px;
+}
+
+.modal-header {
+    background-color: #007bff; /* Blue background for modal header */
+    color: white;
+}
+
+.modal-footer .btn-primary {
+    background-color: #28a745; /* Green for add button */
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dee2e6; /* Light gray border */
+}
+
+.table th {
+    background-color: #343a40; /* Dark gray header for table */
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray on row hover */
+}
+
+.alert {
+    margin-top: 20px; /* Space above alerts */
+}
