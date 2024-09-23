@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f8ff; /* Light background for the location page */
+    font-family: 'Open Sans', sans-serif; /* Use the Google font */
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: 600; /* Semi-bold for the heading */
+}
+
+.location-card {
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 15px; /* Rounded corners for the card */
+    padding: 20px;
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.location-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.location-logo {
+    width: 100px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}

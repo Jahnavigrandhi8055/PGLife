@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f8ff; /* Light background for the login page */
+    font-family: 'Open Sans', sans-serif; /* Use the Google font */
+}
+
+.card {
+    border-radius: 15px; /* Rounded corners for the card */
+}
+
+.card-body {
+    padding: 40px; /* More padding for a spacious layout */
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: 600; /* Semi-bold for the heading */
+}
+
+.form-control {
+    border-radius: 10px; /* Rounded corners for input fields */
+    border: 1px solid #ced4da; /* Standard border */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+}
+
+.btn-primary {
+    border-radius: 10px; /* Rounded corners for button */
+    padding: 10px; /* Padding for better button size */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.text-center a {
+    color: #007bff; /* Link color */
+    font-weight: 600; /* Semi-bold link */
+}
+
+.text-center a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
