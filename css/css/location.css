@@ -10,10 +10,17 @@ h1 {
 }
 
 .location-card {
-    border: 1px solid #007bff; /* Border color */
-    border-radius: 15px; /* Rounded corners for the card */
-    padding: 20px;
-    transition: transform 0.2s; /* Smooth hover effect */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #fff; /* Background color */
+    height: 300px; /* Fixed height */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+   
+    
 }
 
 .location-card:hover {
@@ -21,7 +28,8 @@ h1 {
 }
 
 .location-logo {
-    width: 100px; /* Adjust logo size */
+    width: 80%; /* Adjust the percentage as needed */
+    max-width: 200px; /* Optional: set a max width */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Space between image and text */
+    margin-bottom: 10px; /* Space between image and title */
 }
