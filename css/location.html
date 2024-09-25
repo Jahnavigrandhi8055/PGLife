@@ -9,6 +9,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/location.css" rel="stylesheet" />
+    <style>
+        .location-logo {
+            width: 100%; /* Full width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        .location-card {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            transition: box-shadow 0.3s;
+        }
+
+        .location-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .pg-listing {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .pg-name {
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .pg-details {
+            font-size: 0.9em; /* Slightly smaller text for details */
+            color: #555; /* Darker grey for details */
+        }
+    </style>
 </head>
 <body>
 
@@ -36,29 +75,49 @@
     <div class="container mt-4">
         <h1 class="text-center">Choose Your Location</h1>
         <div class="row mt-4">
+
+            <!-- Tirupati Card -->
             <div class="col-md-4 text-center mb-4">
-                <div class="location-card">
-                    <img src="https://www.tourmyindia.com/blog/wp-content/uploads/2015/09/best-places-to-visit-in-andhra-pradesh.png" alt="Andhra Pradesh" class="location-logo">
-                    <h3>Tarapith</h3>
-                </div>
-            </div>
-            <div class="col-md-4 text-center mb-4">
-                <div class="location-card">
-                    <img src="https://thumbs.dreamstime.com/b/india-hyderabad-charminar-travel-landmark-vector-illustration-india-hyderabad-charminar-travel-landmark-line-vector-illustration-273814391.jpg" alt="Karnataka" class="location-logo">
-                    <h3>Hyderabad</h3>
+                <a href="andhra-pradesh.html" class="location-card">
+                    <img src="https://www.tourmyindia.com/blog/wp-content/uploads/2015/09/best-places-to-visit-in-andhra-pradesh.png" alt="Tirupati" class="location-logo">
+                    <h3>Tirupati</h3>
+                </a>
+                <div class="pg-listing">
+                    <h4>Nearby PG:</h4>
+                    <p class="pg-name">Comfort Stay</p>
+                    <p class="pg-details">Affordable rooms with all amenities.</p>
                 </div>
             </div>
             
+            <!-- Hyderabad Card -->
             <div class="col-md-4 text-center mb-4">
-                <div class="location-card">
-                    <img src="https://blogs.revv.co.in/blogs/wp-content/uploads/2021/05/Dhanushkodi.png" alt="Tamil Nadu" class="location-logo">
-                    <h3>Tamil Nadu</h3>
+                <a href="hyderabad.html" class="location-card">
+                    <img src="https://thumbs.dreamstime.com/b/india-hyderabad-charminar-travel-landmark-vector-illustration-india-hyderabad-charminar-travel-landmark-line-vector-illustration-273814391.jpg" alt="Hyderabad" class="location-logo">
+                    <h3>Hyderabad</h3>
+                </a>
+                <div class="pg-listing">
+                    <h4>Nearby PG:</h4>
+                    <p class="pg-name">Heritage Stay</p>
+                    <p class="pg-details">Centrally located with easy access to landmarks.</p>
                 </div>
             </div>
+            
+            <!-- Tamil Nadu Card -->
+            <div class="col-md-4 text-center mb-4">
+                <a href="tamil-nadu.html" class="location-card">
+                    <img src="https://blogs.revv.co.in/blogs/wp-content/uploads/2021/05/Dhanushkodi.png" alt="Tamil Nadu" class="location-logo">
+                    <h3>Tamil Nadu</h3>
+                </a>
+                <div class="pg-listing">
+                    <h4>Nearby PG:</h4>
+                    <p class="pg-name">Seaside Rooms</p>
+                    <p class="pg-details">Enjoy beautiful views and comfort.</p>
+                </div>
+            </div>
+
             <!-- Add more states as needed -->
         </div>
     </div>
-    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
