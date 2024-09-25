@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest Hotels</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .hotel-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s;
+        }
+
+        .hotel-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .hotel-name {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            color: #FFD700; /* Gold color for stars */
+            margin-bottom: 10px;
+        }
+
+        .location {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .offers {
+            font-size: 1em;
+            color: #28a745;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #dc3545; /* Bootstrap danger color */
+            margin-bottom: 10px;
+        }
+
+        .details {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+        <!-- Tamil Nadu Hotels Section -->
+        <h2 class="text-center mt-4">Tamil Nadu</h2>
+        <div class="hotel-card">
+            <h2 class="hotel-name">Tamil Nadu Residency</h2>
+            <div class="rating">★★★</div>
+            <p class="location">Madurai, Tamil Nadu - 8 km to center</p>
+            <p class="offers">This property offers:</p>
+            <ul class="details">
+                <li>Free Breakfast</li>
+                <li>Free WiFi</li>
+                <li>Room Service</li>
+            </ul>
+            <p class="price">Rs. 950 <span style="text-decoration: line-through; color: #999;">Rs. 1,200</span></p>
+            <p class="offers">Cashback Rewards: Rs. 50</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
